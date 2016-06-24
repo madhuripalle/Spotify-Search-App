@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+  <meta name="description" content="Assignment 1 for COMS W4170">
+  <meta name="author" content="Madhuri Palle">
+
+  <title>Spotify Application</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="other/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Spotify Search App</a>
+      </div>
+
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" onclick="window.location.reload(true);">Home</a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+
+    </div><!-- /.container -->
+  </nav><!-- /.navbar -->
+
+
+  <div class="jumbotron" style="background: url(other/jumbotronpic7.jpg)">
+    <h1>Welcome!</h1>
+    <p>In the mood to listen to some music? Search for songs using the filters on the right!</p>
+  </div>
+
+
+  <div class="container">
+
+    <div class="row row-offcanvas row-offcanvas-right">
+
+      <div class="col-xs-12 col-sm-9" style="text-align: center">
+
+        <div class="welcome unhidden" id="ShowWelcomeText">
+          <h2><i>Let's get started!</i></h2>
+          <h3><i>Start searching for some music using the filters to your right..<i></h3>
+        </div>
+
+        <div class="row hidden" id="ShowResults">
+
+
+          <div class="row headingrow">
+
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h21"></h4>
+              <p id="p1"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h22"></h4>
+              <p id="p2"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h23"></h4>
+              <p id="p3"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+          
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i1" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i2" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i3" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+          </div>
+
+          <div class="row headingrow">
+
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h24"></h4>
+              <p id="p4"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h25"></h4>
+              <p id="p5"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+
+            <div class="col-xs-6 col-lg-4">
+              <h4 id="h26"></h4>
+              <p id="p6"></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i4" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i5" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+            <div class="col-xs-6 col-lg-4">
+              <iframe id="i6" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+
+          </div>
+
+          <div class="row headingrow">
+
+           <div class="col-xs-6 col-lg-4">
+            <h4 id="h27"></h4>
+            <p id="p7"></p>
+          </div><!--/.col-xs-6.col-lg-4-->
+
+          <div class="col-xs-6 col-lg-4">
+            <h4 id="h28"></h4>
+            <p id="p8"></p>
+          </div><!--/.col-xs-6.col-lg-4-->
+
+          <div class="col-xs-6 col-lg-4">
+            <h4 id="h29"></h4>
+            <!--<img src="../images/album1.png" -->
+            <p id="p9"></p>
+          </div><!--/.col-xs-6.col-lg-4-->
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xs-6 col-lg-4">
+            <iframe id="i7" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+
+          <div class="col-xs-6 col-lg-4">
+            <iframe id="i8" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+
+          <div class="col-xs-6 col-lg-4">
+            <iframe id="i9" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+
+        </div>
+
+        <div class="row headingrow">
+
+          <div class="col-xs-6 col-lg-4">
+            <!--Empty Div for formatting -->
+          </div>
+
+         <div class="col-xs-6 col-lg-4">
+          <h4 id="h210"></h4>
+          <p id="p10"></p>
+          <iframe id="i10" src="" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+        </div><!--/.col-xs-6.col-lg-4-->
+        
+      </div>
+
+      <div class="row headingrow">
+        <nav>
+          <ul class="pager">
+            <li class="previous" id="prev"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>
+            <li class="next" id="next"><a href="#"> Next <span aria-hidden="true">&rarr;</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div><!--/row-->
+
+  </div><!--/.col-xs-12.col-sm-9-->
+
+  <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+    <h4>Search Box!</h4>
+
+    <div class="searchsomething" style="z-index:1">
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" placeholder="Artist Name" id="ArtistName" aria-describedby="basic-addon1" onchange="changecolor(this)">
+      </div>
+
+    </div>
+
+    <div class="searchsomething" style="z-index:2">
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" placeholder="Song Name" id="SongName" aria-describedby="basic-addon1" onkeyup="changecolor(this)">
+      </div>
+
+    </div>
+
+    <div class="searchsomething" style="z-index:3">
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" placeholder="Album Name" id="AlbumName" aria-describedby="basic-addon1" onchange="changecolor(this)">
+      </div>
+
+    </div>
+
+    <div class="searchsomething" style="z-index:4">
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" placeholder="Genre" id="Genre" aria-describedby="basic-addon1" onchange="changecolor(this)">
+      </div>
+
+    </div>
+
+    <div class="searchsomething" style="z-index:5">
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+        <input type="text" class="form-control" placeholder="Year" id="Year" aria-describedby="basic-addon1" onchange="changecolor(this)">
+      </div>
+
+    </div>
+
+    <div class="searchsomething" style="z-index:6">
+      <p><input type="button" class="btn btn-default" href="#" value="Search" id="SearchButton"/></p>
+    </div>
+
+  </div><!--/.sidebar-offcanvas-->
+
+</div><!--/row-->
+
+<hr>
+
+<footer>
+  <p>&copy; Spotify Search App</p>
+</footer>
+
+</div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="other/javascript/bootstrap.min.js"></script>
+    <script src="other/javascript/spotify-web-api.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="other/javascript/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
